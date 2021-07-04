@@ -16,7 +16,13 @@ You can install the Easy Legendary using a AUR-Helper in Arch-based distros, suc
 sudo paru -S easy-legendary-git
 ```
 In others distros you will also need install this dependencies:
-wine-staging giflib lib32-giflib libpng gnutls mpg123 openal v4l-utils libpulse libgpg-error alsa-plugins alsa-lib libjpeg-turbo sqlite libxcomposite libxinerama libgcrypt ncurses opencl-icd-loader libxslt libva gtk3 gst-plugins-base-libs vulkan-icd-loader legendary
+```
+wine-staging giflib lib32-giflib libpng gnutls mpg123 openal v4l-utils 
+libpulse libgpg-error alsa-plugins alsa-lib libjpeg-turbo sqlite
+libxcomposite libxinerama libgcrypt ncurses opencl-icd-loader 
+libxslt libva gtk3 gst-plugins-base-libs vulkan-icd-loader legendary
+```
+(it aren't a command, is the list of dependencies.)
 
 With the dependencies installed, you will need to install Easy legendary:
 ```bash
