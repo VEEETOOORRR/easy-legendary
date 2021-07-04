@@ -1,5 +1,4 @@
 <h1 align=center>Easy Legendary</h1>
-(This README aren't complete, i will write it tomorrow.)
 <p align=center>
   <img alt="AUR license" src="https://img.shields.io/aur/license/easy-legendary-git">
   <img alt="AUR version" src="https://img.shields.io/aur/version/easy-legendary-git">
@@ -8,10 +7,25 @@
 </p>
 <p align=center>Script created to make <a href="https://github.com/derrod/legendary">Legendary</a> be so easy!</p>
 
-### Why this script was created?
-the script was initially created just not to memorize legendary commands, but i really think it should go a step further, so i ask, why not?
 ### What it can do?
 the script can make many things, like download, execute games, login and logout your epic games account, and so more.
+
+## How to install?
+You can install the Easy Legendary using a AUR-Helper in Arch-based distros, such paru:
+```bash
+sudo paru -S easy-legendary-git
+```
+In others distros you will also need install this dependencies:
+wine-staging giflib lib32-giflib libpng gnutls mpg123 openal v4l-utils libpulse libgpg-error alsa-plugins alsa-lib libjpeg-turbo sqlite libxcomposite libxinerama libgcrypt ncurses opencl-icd-loader libxslt libva gtk3 gst-plugins-base-libs vulkan-icd-loader legendary
+
+With the dependencies installed, you will need to install Easy legendary:
+```bash
+sudo curl -o /usr/bin/easy-legendary https://raw.githubusercontent.com/RedsonBr140/easy-legendary/main/epicgames
+```
+Execute it using `easy-legendary`, if you don't installed all the dependencies, the program will not work fine.
+## F.A.Q
+### Why this script was created?
+the script was initially created just not to memorize legendary commands, but i really think it should go a step further, so i ask, why not?
 
 ### What's Legendary?
 Legendary is an open-source game launcher that can download and install games from the Epic Games platform on Linux and Windows. Its name as a tongue-in-cheek play on tiers of item rarity in many MMORPGs.
