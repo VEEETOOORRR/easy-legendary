@@ -14,7 +14,7 @@
 ### O que isso pode fazer?
 Esse script interage diretamente com o Legendary, mas não automatiza as ações dele, basicamente você está usando o Legendary sem decorar os parametros.
 
-## How to install?
+## Como instalar
 Em distros Arch-Based você pode usar um AUR-Helper para instalar o Easy Legendary, como o paru:
 ```bash
 sudo paru -S easy-legendary-git
@@ -37,10 +37,10 @@ Para usar, execute `easy-legendary`, se você não instalou todas as dependencia
 ### Porque esse Script foi criado?
 Inicialmente esse script foi criado apenas para não memorizar os parametros do legendary, mas eu acho que deveria ir um passo a frente, então... Porque não?
 
-### What's Legendary?
+### Do que se trata o Legendary?
 Legendary é um game launcher open-source que pode baixar e instalar jogos da Epic Games no Linux e Windows.
 
-#### How can i install Legendary?
+#### Como eu instalo?
 Em Arch-based Você pode instalar o legendary Com o seu AUR-Helper preferido, como o yay:
 ```c
 yay -S legendary
