@@ -10,6 +10,7 @@
   <p align=center><a href="https://github.com/RedsonBr140/easy-legendary/blob/main/doc/README_pt-br.md">Português Brasileiro</a></p>
    <p align=center><a href="https://github.com/ffraanks">By Franklin Souza</a></p>
 </p>
+
 ### What it can do?
 the script can make many things, like download, execute games, login and logout your epic games account, and so more.
 
