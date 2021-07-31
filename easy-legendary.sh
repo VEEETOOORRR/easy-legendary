@@ -149,9 +149,9 @@ printf " [02] - Status.\n"
 printf " [03] - List Games.\n"
 printf " [04] - Install a game.\n"
 printf " [05] - Sync the games.\n"
-printf " [06] - Unninstall a game.\n"
+printf " [06] - Uninstall a game.\n"
 printf " [07] - Execute a game.\n"
-printf " [08] - Listar Games and check for updates.\n"
+printf " [08] - List Games and check for updates.\n"
 printf " [09] - Exit from the program.\n\n"
 read EPIC_GAMES
 printf "\n"
@@ -165,10 +165,10 @@ if [ $EPIC_GAMES == '1' ] || [ $EPIC_GAMES == '01' ] ; then
   printf "\n\n"
   
   if [ $LOGIN == '1' ] || [ $LOGIN == '01' ] ; then
-    legendary auth && echo && read -p ' Logged with sucess (PRESS ENTER TO CONTINUE...)'
+    legendary auth && echo && read -p ' Logged in with sucess (PRESS ENTER TO CONTINUE...)'
 
   elif [ $LOGIN == '2' ] || [ $LOGIN == '02'] ; then
-    legendary auth --delete && echo && read -p ' Unlogged with sucess (PRESS ENTER TO CONTINUE...)'
+    legendary auth --delete && echo && read -p ' Logged out with sucess (PRESS ENTER TO CONTINUE...)'
   fi
 
 elif [ $EPIC_GAMES == '2' ] || [ $EPIC_GAMES == '02' ] ; then
@@ -181,7 +181,7 @@ elif [ $EPIC_GAMES == '2' ] || [ $EPIC_GAMES == '02' ] ; then
 
   elif [ $EPIC_GAMES == '4' ] || [ $EPIC_GAMES == '04' ] ; then
     clear
-    printf " Escolha uma das opções abaixo:\n\n"
+    printf " Choose one of the options below:\n\n"
     printf " [01] - Install a game in current PATH\n"
     printf " [02] - Install a game in another PATH\n\n"
     read INSTALL_GAME
@@ -209,7 +209,7 @@ elif [ $EPIC_GAMES == '2' ] || [ $EPIC_GAMES == '02' ] ; then
 
   elif [ $EPIC_GAMES == '6' ] || [ $EPIC_GAMES == '06' ] ; then
     clear
-    printf " Write the app name to unninstall a game. (PRESS ENTER TO CANCEL):\n\n"
+    printf " Write the app name to uninstall a game. (PRESS ENTER TO CANCEL):\n\n"
     read UNINSTALL
     printf "\n\n"
     legendary uninstall "$UNINSTALL"
